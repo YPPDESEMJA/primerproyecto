@@ -1,0 +1,27 @@
+h1{
+    text-align: center;
+}
+
+.parrafo{
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    gap: 20px; /* Espacio entre los elementos */
+    flex-wrap: wrap; /* Para que se ajusten si no hay suficiente espacio */
+    justify-content: space-evenly;
+}
+
+.container > div {
+    border: 1px solid #ccc;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.comida-img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
